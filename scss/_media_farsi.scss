@@ -1,0 +1,187 @@
+  /* ----------------------- Responcive -------------------------- */
+  @media only screen and (max-width: 350px){
+    main{
+      .banner{
+        .main-content{
+        .banner-content{
+          .custumbtn{
+            .custumbtn-left{
+              margin-left: 0 !important;
+            }
+          }
+
+          }
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 760px) {
+    header{
+      nav{
+        box-shadow: none !important;
+        border-radius: 0 !important;
+        margin: 0 !important;
+        .search{
+          display: none;
+        }
+        .navbar-toggler{
+          position: relative;
+          // top:40px;
+        }
+        ul{
+          
+          height: 160px;
+          overflow: scroll;
+          .has-child{
+            .dropdown-menu1{
+              left: 70px !important;
+              // right: 50% !important;
+            }
+
+          }
+          .nav-item{
+            top:30px !important;
+            background: $light-gray !important;
+            a{
+              text-align: center!important;
+            }
+            
+          }
+
+        }
+        .navbar-brand{
+          margin-top: 20px !important;
+        }
+      }
+     
+    }
+      main{
+      .banner{
+        margin: 0 !important;
+        border-radius: 0 !important;
+        height: 500px !important;
+       
+        &:after{
+        border-radius: 0 !important;
+        }
+        // background-position:center center !important;
+        .main-content{
+          padding:70px 0 !important;
+        .banner-content{
+          h1{
+            @include textalign(center);
+          }
+        .custumbtn{
+          margin:30px 0 !important;
+          .custumbtn-left{
+            margin-right: 0 !important;
+           
+          }
+        
+        }
+
+      }
+      .explorer{
+        margin-top:70px !important;
+      }
+    }
+      
+  }
+}
+    
+    .about{
+      .about-content-left{
+        .item-2{
+          margin-top: 0 !important;
+        }
+      }
+
+    }
+    .example{
+     
+      .example-titr{
+        
+    
+     
+      a{
+        margin-right: 5px !important;
+      }
+      }
+    }
+  .education{
+    .image{
+      margin-bottom: 80px;
+      margin-left: 40px !important;
+    }
+  }
+.contact{
+  .moshakhasat{
+    margin-left: 0!important;
+    width: 350px !important;
+    
+    padding: 70px 20px  !important;
+    margin-top: 430px !important;
+    z-index: 7;
+    span{
+      &:before{
+        right: 10px !important;
+      }
+    }
+  }
+  .call{
+    margin-left: 0!important;
+    width: 350px !important;
+    
+    padding: 70px 20px  !important;
+    margin-top: 430px !important;
+    z-index: 7;
+    span{
+      &:before{
+        right: 10px !important;
+      }
+    }
+  }
+  .contact-content-1{
+    flex-flow:column;
+    .map{
+      margin-bottom: 20px;
+      iframe{
+        width: 300px !important ;
+        height: 350px !important;
+
+        
+      }
+    }
+  }
+}
+.contact-us{
+  .nazarat{
+    width: 350px !important;
+    .nazarat1{
+      width: 200px !important;
+    }
+  }
+}
+.owl-prev{
+ display: none !important;
+}
+
+.owl-next{
+  
+  display: none !important;
+}
+  }
+  @media  (min-width:678px) and (max-width: 1024px) {
+    .owl-prev{
+      display: none !important;
+      
+      }
+      .owl-next{
+  
+        display: none !important;
+      }
+    }
+
+  
+
+

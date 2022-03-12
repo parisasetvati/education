@@ -1,0 +1,121 @@
+a:hover{
+    text-decoration: none;
+}
+%abs{
+    right: 0;
+    top:0;
+    left:0;
+    bottom: 0;
+}
+%flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mynavbar{
+    position: fixed !important;
+    width: 100% !important;
+    z-index: 10 !important;
+}
+.isblank{
+    border-color: $red !important;
+   
+}
+#error{
+    color: $red;
+    
+}
+.sabt{
+input{
+    width: 200px;
+}
+select{
+    width: 200px;
+}
+}
+   img{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+
+    border: 0;
+   }
+   .show{
+       height: 60px !important;
+   }
+   section{
+
+    margin:100px auto;
+    }
+
+
+   .owl-carousel{
+     
+       direction:ltr;  
+       padding-bottom: 50px;
+   }
+  .item{
+     
+      direction: rtl;
+  }
+  button:focus{
+      outline: none;
+  }
+input:focus{
+    outline: none;
+}
+textarea:focus{
+    outline: none;
+}
+.owl-nav{
+    position: relative;
+    .owl-prev{
+        position: relative;
+        span{
+            position: absolute;
+            font-size:20pt;
+            color:#000;
+            background: #fff;
+            width: 30px;
+            height: 30px;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: left;
+            top:-200px;
+            right:0px;
+            &:hover{
+                background: $red;
+                color:#fff;
+
+            }
+           
+        }
+    }
+    .owl-next{
+        position: relative;
+        span{
+            position: absolute;
+            font-size:20pt;
+            color:#000;
+            background: #fff;
+            width: 30px;
+            height: 30px;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: left;
+            top:-200px;
+            left:1100px;
+            &:hover{
+                background: $red;
+                color:#fff;
+                
+
+            }
+           
+        }
+    }
+}
